@@ -1,0 +1,161 @@
+
+
+#container{
+    height: 600px;
+    width: 750px;
+    /* border: 1px solid rebeccapurple; */
+    background-color: #9DD2EA;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 0px #009de4;
+    position: relative;
+}
+
+#score{
+    position: absolute;
+    left: 680px;
+    background-color: #F1FF92;
+    color: #888E5F;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 2px 0px #90ee90;
+}
+
+#correct{
+    position: absolute;
+    background-color: #42e252;
+    left:240px; 
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    display: none;
+}
+
+#wrong{
+    position: absolute;
+    background-color: #de401a;
+    color: white; 
+    left:240px; 
+    padding: 10px;
+    border-radius: 10px;
+    display: none;
+}
+
+#fruitcontainer{
+    height: 400px;
+    width: 650px;
+    background-color: white;
+    box-shadow: 0px 4px #535aa8;
+    margin: 70px auto 10px auto;
+    font-size: 100px;
+    color: black;
+    text-align: center;
+    line-height: 130px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+#instruction{
+    width: 450px;
+    height: 60px;
+    background-color: #B481D9;
+    margin: 15px auto;
+    text-align: center;
+    box-shadow: 0px 4px #8153a8;
+    font-size: 25px;
+    line-height: 65px;
+}
+
+#choice{
+    width: 450px;
+    height: 100px;
+    margin: 10px auto;
+
+}
+
+.boxes{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    float: left;
+    margin-right: 43px;
+    margin-top: 5px;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    line-height: 80px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.5s;
+    position: relative;
+
+}
+
+/* .boxes:hover{
+    background-color: #9C89F6;
+    color: white;
+} */
+
+#box4{
+    margin-right: 0px;
+}
+
+.boxes:active ,#startreset:active{
+    background-color: #9C89F6;
+    color: white;
+    top:4px;
+}
+
+#startreset{
+    width: 80px;
+    padding: 10px;
+    background-color: rgba(255,255,255,0.5);
+    margin: 0 auto;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: all 0.2s;
+    position: relative;
+}
+
+#trialsleft{
+    width: 80px;
+    padding: 10px;
+    background-color: #F1FF92;
+    border-radius: 3px;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    display: none;
+    top:25px;
+    left: 30px;
+}
+
+
+#gameover{
+    height: 250px;
+    width: 495px;
+    background-color: #f77b31;
+    color: white;
+    font-size: 2.5em;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top: 145px;
+    left: 135px;
+    display: none;
+}
+
+.life{
+    width: 16px;
+    height: 16px;
+    margin: 0px 5px;
+    background-color: #F1FF92;
+}
+
+.fruit{
+    display: none;
+    position: absolute;
+}
